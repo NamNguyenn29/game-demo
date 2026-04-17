@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --pink: #f9a8d4;
+  --rose: #fb7185;
+  --lavender: #c4b5fd;
+  --mint: #6ee7b7;
+  --peach: #fcd5b5;
+  --cream: #fef3c7;
+  --sky: #bae6fd;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: #0f0a1e;
+  overflow: hidden;
+  user-select: none;
+}
+
+canvas { display: block; }
+
+.font-display { font-family: 'Playfair Display', serif; }
