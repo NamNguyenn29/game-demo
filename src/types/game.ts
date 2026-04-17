@@ -14,13 +14,13 @@ export interface Player {
 
 export interface Camera { x: number; y: number; }
 
-export type MapZone = "meadow" | "forest" | "pond" | "garden" | "secret_garden";
+export type MapZone = "meadow" | "forest" | "pond" | "garden" | "secret_garden" | "sakura";
 
 export interface MapObject {
   x: number; y: number;
   type: "tree" | "pine" | "sakura" | "flower" | "rose" | "mushroom" | "rock"
-      | "bush" | "lily" | "reed" | "lantern" | "bench" | "fountain" | "arch"
-      | "fern" | "crystal" | "firefly_bush";
+  | "bush" | "lily" | "reed" | "lantern" | "bench" | "fountain" | "arch"
+  | "fern" | "crystal" | "firefly_bush";
   variant: number;
   zone: MapZone;
   scale?: number;
